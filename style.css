@@ -1,0 +1,184 @@
+body {
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+}
+
+.banner {
+    
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(46, 28, 109);
+    border-width: 2px;
+
+}
+
+.scaling {
+    min-width: 100%;
+    max-height:auto}
+
+/* Navbar container */
+.navbar {
+    /* overflow: hidden; */
+    min-height: 48px;
+    background-color: rgb(46, 28, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 1;
+    width: 100%;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float:left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;       /* Used for vertical align on mobile phones */
+    margin: 0;                  /* Used for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(0, 175, 9);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;}
+
+.sidebar{
+    float:right;
+    /* margin-top:48px; */
+    border-style:solid;
+    border-width:3px;
+    border-color:rgb(46, 28, 109); 
+    position: relative;
+}
+ .sidebar2{
+  border-style:solid;
+  border-width:3px;
+  border-color:rgb(46, 28, 109); 
+    float:left;
+    /* margin-top:48px; */
+    position: relative;}
+    
+
+ .maincontent{
+    /* overflow-y: auto; */
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right:auto;
+    height: 60%;
+    width:40%;
+    border-width:4px;
+    border-style:solid;
+    border-color:rgb(104, 104, 104); 
+    text-align: justify;
+    font-size: 14;
+    margin-top: 25px;
+    padding:15px;
+    
+    
+ }
+
+.mainimage{
+  
+  text-align: center;
+  margin-top:15px;
+  
+}
+
+.indeximage{
+  border-style:solid;
+  border-width:3px;
+  border-color:rgb(104, 104, 104); 
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:15px;
+  width:40%;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 20px;
+  background-color: rgb(46, 28, 109);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 1;
+  padding:10px;
+  text-align:center;
+}
+
+.gamename{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly
+  }
+  
+.contactsheader{
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+
+}
